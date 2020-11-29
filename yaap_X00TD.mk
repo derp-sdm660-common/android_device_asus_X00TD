@@ -18,6 +18,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Boot animation
 scr_resolution := 1080
 
+#gapps
+TARGET_BUILD_GAPPS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := yaap_X00TD
 PRODUCT_DEVICE := X00TD
